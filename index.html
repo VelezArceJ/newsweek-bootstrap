@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Newsweek</title>
+</head>
+
+<body>
+    
+    <header class="container-fluid p-0 border border-top-0 border-left-0 border-right-0">
+        <div class="top-header d-flex justify-content-between align-items-end">
+            <div class='ml-5 text-white d-lg-block d-none'>
+                <p class="mt-3">70&deg; Houston, TX&#65310</p>
+                <p datetime="2020-10-16" class="mt-n2">November 16, 2020</p>
+            </div>
+            <div>
+                <img src="https://raw.githack.com/CornerstoneII/Using-Bootstrap/feature/assets/images/main-logo.png" alt="Newsweek Logo" class="img-fluid mb-1">
+            </div>
+            <div class="mr-2 mr-lg-5 mb-3">
+                <a href="#" class="btn text-white font-weight-bold">LOGIN</a>
+                <a href="#" class="btn btn-warning btn-rounded font-weight-bold">SUBSCRIBE&#65310</a>
+                <button class="navbar-toggler navbar-dark bg-dark d-lg-none" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+            </div>
+        </div>
+        <div class="navbar d-xl-flex d-none border border-top-0 border-left-0 border-right-0">
+            <ul class="nav">
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">U.S.</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">World</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Business</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Tech & Science</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Culture</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Newsgeek</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Sports</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Health</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">The Debate</a>
+                </li>
+                <li class="nav-item mr-n2">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Vantage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-body font-weight-bold border border-top-0 border-left-0 border-bottom-0">Weather</a>
+                </li>
+                <li class="nav-item">
+                    <input type="text" class="form-control border-0" placeholder="Search">
+                </li>
+            </ul>
+        </div>
+        <div class="navbar d-lg-flex d-none small-navbar">
+            <ul class="nav">
+                <li class="nav-item mt-n2 mb-n2 mr-n3">
+                    <a href="#" class="nav-link font-weight-bold text-body">TRENDING</a>
+                </li>
+                <li class="nav-item mt-n2 mb-n2 mr-n3">
+                    <a href="#" class="nav-link font-weight-bold text-secondary">DONALD TRUMP</a>
+                </li>
+                <li class="nav-item mt-n2 mb-n2 mr-n3">
+                    <a href="#" class="nav-link font-weight-bold text-secondary">JOE BIDEN</a>
+                </li>
+                <li class="nav-item mt-n2 mb-n2 mr-n3">
+                    <a href="#" class="nav-link font-weight-bold text-secondary">2020 ELECTION</a>
+                </li>
+                <li class="nav-item mt-n2 mb-n2 mr-n3">
+                    <a href="#" class="nav-link font-weight-bold text-secondary">STIMULUS PACKAGE</a>
+                </li>
+                <li class="nav-item mt-n2 mb-n2 mr-n3">
+                    <a href="#" class="nav-link font-weight-bold text-secondary">CORONAVIRUS</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="d-flex d-flex-column">
+            <div class="row pt-3 row-cols-3">
+                <div class=" order-2 order-md-0 col-12 col-md-5 col-lg-3">
+                    <section>
+                        <h6 class="text-secondary font-weight-bold">FEATURED STORIES</h6>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                    </section>
+                </div>
+                <div class="d-flex flex-column col-12 col-md-7 col-lg-5">
+                    <section>
+                        <h6 class="text-secondary font-weight-bold">TOP STORY</h6>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567501/william-barr.jpg?w=591&h=364&f=6697efd36a1ccd3b9e176486037a6514" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Attorney General William Barr's Actions Are 'Remarkably Not Normal,' Legal Historian Says
+                                </h3>
+                                <p>
+                                    Barr's intervention in Roger Stone's case, says Jed Shugerman, was "yet another breach of norms in a pattern with Trump and Barr."
+                                </p>
+                            </figure>
+                        </article>
+                    </section>
+                    <section class="order-3 order-md-2">
+                        <h6 class="text-secondary font-weight-bold">CULTURE & TRAVEL</h6>
+                        <div class="row d-flex flex-row">
+                            <article class="col-md-6 col-sm-12">
+                                <figure>
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1567501/william-barr.jpg?w=591&h=364&f=6697efd36a1ccd3b9e176486037a6514" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="font-weight-bold">
+                                        Attorney General William Barr's Actions Are 'Remarkably Not Normal,' Legal Historian Says
+                                    </p>
+                                    <p class="text-secondary">
+                                        Barr's intervention in Roger Stone's case, says Jed Shugerman, was "yet another breach of norms in a pattern with Trump and Barr."
+                                    </p>
+                                </figure>
+                            </article>
+                            <article class="col-md-6 col-sm-12">
+                                <figure>
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1567501/william-barr.jpg?w=591&h=364&f=6697efd36a1ccd3b9e176486037a6514" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="font-weight-bold">
+                                        Attorney General William Barr's Actions Are 'Remarkably Not Normal,' Legal Historian Says
+                                    </p>
+                                    <p class="text-secondary">
+                                        Barr's intervention in Roger Stone's case, says Jed Shugerman, was "yet another breach of norms in a pattern with Trump and Barr."
+                                    </p>
+                                </figure>
+                            </article>
+                            <article class="col-md-6 col-sm-12">
+                                <figure>
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1567501/william-barr.jpg?w=591&h=364&f=6697efd36a1ccd3b9e176486037a6514" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="font-weight-bold">
+                                        Attorney General William Barr's Actions Are 'Remarkably Not Normal,' Legal Historian Says
+                                    </p>
+                                    <p class="text-secondary">
+                                        Barr's intervention in Roger Stone's case, says Jed Shugerman, was "yet another breach of norms in a pattern with Trump and Barr."
+                                    </p>
+                                </figure>
+                            </article>
+                            <article class="col-md-6 col-sm-12">
+                                <figure>
+                                    <a href="#">
+                                        <img src="https://d.newsweek.com/en/full/1567501/william-barr.jpg?w=591&h=364&f=6697efd36a1ccd3b9e176486037a6514" alt="" class="img-fluid">
+                                    </a>
+                                    <p class="font-weight-bold">
+                                        Attorney General William Barr's Actions Are 'Remarkably Not Normal,' Legal Historian Says
+                                    </p>
+                                    <p class="text-secondary">
+                                        Barr's intervention in Roger Stone's case, says Jed Shugerman, was "yet another breach of norms in a pattern with Trump and Barr."
+                                    </p>
+                                </figure>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="order-2 order-md-3 more-stories">
+                        <h6 class="text-secondary font-weight-bold">MORE STORIES</h6>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                    </h6>
+                                    <p class="text-body">
+                                        Hundreds of U.S. citizens were removed from the Diamond Princess cruise ship on Sunday.
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                    </section>
+                </div>
+                <div class="order-3 col-12 col-lg-4 pr-5">
+                    <section>
+                        <h6 class="text-secondary font-weight-bold pb-3">OPINION</h6>
+                        <article class="mb-n4">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1515495/donna-rotunno.jpg?w=63&h=63&f=3b5060e1ccad0bd149ca73208415dbc3" alt="" class="rounded-circle mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Jurors in My Client Harvey Weinstein's Case Must Look Past the Headlines
+                                    </h6>
+                                    <p class="text-secondary font-weight-bold">
+                                        BY DONNA ROTUNNO
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1515495/donna-rotunno.jpg?w=63&h=63&f=3b5060e1ccad0bd149ca73208415dbc3" alt="" class="rounded-circle mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Jurors in My Client Harvey Weinstein's Case Must Look Past the Headlines
+                                    </h6>
+                                    <p class="text-secondary font-weight-bold">
+                                        BY DONNA ROTUNNO
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1515495/donna-rotunno.jpg?w=63&h=63&f=3b5060e1ccad0bd149ca73208415dbc3" alt="" class="rounded-circle mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Jurors in My Client Harvey Weinstein's Case Must Look Past the Headlines
+                                    </h6>
+                                    <p class="text-secondary font-weight-bold">
+                                        BY DONNA ROTUNNO
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1515495/donna-rotunno.jpg?w=63&h=63&f=3b5060e1ccad0bd149ca73208415dbc3" alt="" class="rounded-circle mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Jurors in My Client Harvey Weinstein's Case Must Look Past the Headlines
+                                    </h6>
+                                    <p class="text-secondary font-weight-bold">
+                                        BY DONNA ROTUNNO
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1515495/donna-rotunno.jpg?w=63&h=63&f=3b5060e1ccad0bd149ca73208415dbc3" alt="" class="rounded-circle mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Jurors in My Client Harvey Weinstein's Case Must Look Past the Headlines
+                                    </h6>
+                                    <p class="text-secondary font-weight-bold">
+                                        BY DONNA ROTUNNO
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1515495/donna-rotunno.jpg?w=63&h=63&f=3b5060e1ccad0bd149ca73208415dbc3" alt="" class="rounded-circle mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Jurors in My Client Harvey Weinstein's Case Must Look Past the Headlines
+                                    </h6>
+                                    <p class="text-secondary font-weight-bold">
+                                        BY DONNA ROTUNNO
+                                    </p>
+                                </div>
+                            </figure>
+                        </article>
+                    </section>
+                    <section class="latest-news">
+                        <h6 class="text-secondary font-weight-bold pt-3">LATEST NEWS</h6>
+                        <article class="mb-n4 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Are Starbucks and Other Coffee Shops Open on Presidents Day?
+                                    </h6>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Are Starbucks and Other Coffee Shops Open on Presidents Day?
+                                    </h6>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Are Starbucks and Other Coffee Shops Open on Presidents Day?
+                                    </h6>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Are Starbucks and Other Coffee Shops Open on Presidents Day?
+                                    </h6>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Are Starbucks and Other Coffee Shops Open on Presidents Day?
+                                    </h6>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Are Starbucks and Other Coffee Shops Open on Presidents Day?
+                                    </h6>
+                                </div>
+                            </figure>
+                        </article>
+                        <article class="mb-n4 border border-bottom-0 border-left-0 border-right-0 pt-3 pb-3">
+                            <figure class="media">
+                                <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" alt="" class="img-fluid mr-2">
+                                <div class="media-body">
+                                    <h6 class="font-weight-bold">
+                                        Are Starbucks and Other Coffee Shops Open on Presidents Day?
+                                    </h6>
+                                </div>
+                            </figure>
+                        </article>
+                    </section>
+                    <section>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <a href="#">
+                                    <img src="https://d.newsweek.com/en/full/1567564/amy-klobuchar.jpg?w=790&f=8de3c25e8c55046ae8658c8a465b0894" alt="" class="img-fluid">
+                                </a>
+                                <h3>
+                                    Amy Klobuchar Says She'd Support Bloomberg and He 'Should Be' in Debates
+                                </h3>
+                                <p>
+                                    "I still do not think he is the best candidate for our country," the Democratic presidential candidate noted.
+                                </p>
+                            </figure>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <section class="d-flex flex-column pt-3 pl-3 pr-3">
+            <h5 class="magazine-header w-100 text-center pb-2 border border-left-0 border-right-0 border-top-0">IN THE MAGAZINE</h5>
+            <div class="d-flex justify-content-around magazine-section">
+                <div class="row row-cols-4">
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex flex-column pt-3 pl-3 pr-3">
+            <h5 class="magazine-header w-100 text-center pb-2 border border-left-0 border-right-0 border-top-0">EDITOR'S PICK</h5>
+            <div class="d-flex justify-content-around magazine-section">
+                <div class="row row-cols-4">
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-6 col-lg-3 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex flex-column pt-3 pl-3 pr-3">
+            <h5 class="magazine-header w-100 text-center pb-2 border border-left-0 border-right-0 border-top-0">FEATURED SLIDESHOWS</h5>
+            <div class="d-flex justify-content-around magazine-section">
+                <div class="row row-cols-4">
+                    <article class="col-md-4 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-4 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-4 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-4 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-4 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-md-4 col-sm-12">
+                        <figure>
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="img-fluid">
+                            <figcaption>SEE ALL FEATURES</figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="mini-section pl-3 pr-3 border border-left-0 border-right-0 border-bottom-0">
+            <h5 class="pt-3 pb-2 text-danger font-weight-bold">U.S.</h5>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex flex-column">
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mini-section pl-3 pr-3 border border-left-0 border-right-0 border-bottom-0">
+            <h5 class="pt-3 pb-2 text-danger font-weight-bold">WORLD</h5>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex flex-column">
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mini-section pl-3 pr-3 border border-left-0 border-right-0 border-bottom-0">
+            <h5 class="pt-3 pb-2 text-danger font-weight-bold">BUSINESS</h5>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex flex-column">
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mini-section pl-3 pr-3 pb-2 border border-left-0 border-right-0">
+            <h5 class="pt-3 pb-2 text-danger font-weight-bold">TECH & SCIENCE</h5>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <figure>
+                        <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" alt="" class="mini-sec-img img-fluid">
+                        <figcaption class="font-weight-bold">Sanders Says Trump Pardons Part of 'Broken and Racist' Justice System</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex flex-column">
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media border border-left-0 border-right-0 border-top-0 pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                        <figure class="media pb-2">
+                            <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" alt="" class="img-fluid mr-2">
+                            <div class="media-body">
+                                <h6 class="font-weight-bold">
+                                    U.S. Passengers Evacuated from Cruise Ship Test Positive for COVID-19
+                                </h6>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row pt-4 pl-3 pr-3">
+                <div class="col-lg-8 col-md-12 sub-sec border border-left-0 border-right-0 border-top-0 pb-3">
+                    <h6 class="text-danger font-weight-bold">SUBSCRIBE</h6>
+                    <div class="full-sub d-flex">
+                        <div class="sub-figure">
+                            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" alt="" class="my-auto pl-3">
+                        </div>
+                        <div class="sub-text p-5">
+                            <h6>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h6>
+                            <p>All Access + Weekly Delivery.</p>
+                            <p>Choose A Membership That's Perfect for You!</p>
+                            <button class="btn btn-danger">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 newsletter border border-left-0 border-right-0 border-top-0 pb-3">
+                    <h6 class="text-danger font-weight-bold">NEWSLETTER</h6>
+                    <div class="border d-flex">
+                        <div>
+                            <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="" class="my-auto">
+                        </div>
+                        <div class="p-3">
+                            <h6 class="font-weight-bold">THE STARTING 5</h6>
+                            <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                            <button class="btn btn-danger">SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid pt-3">
+        <div class="d-md-flex justify-content-between border border-left-0 border-right-0 border-top-0 pb-3">
+            <div>
+                <img src="https://raw.githack.com/CornerstoneII/Using-Bootstrap/feature/assets/images/main-logo.png" alt="Newsweek Logo" class="img-fluid bottom-logo">
+                <p class="d-inline small">&copy; 2020 NEWSWEEK</p>
+            </div>
+            <div style="font-size: 24px">
+                <i class="fa fa-facebook-square pr-2"></i>
+                <i class="fa fa-twitter pr-2"></i>
+                <i class="fa fa-instagram pr-2"></i>
+                <i class="fa fa-tumblr pr-2"></i>
+                <i class="fa fa-linkedin pr-2"></i>
+            </div>
+        </div>
+        <div class="pt-3">
+            <ul class="footer-links pl-2">
+                <li><strong>Editions:</strong></li>
+                <li><a href="#" class="text-secondary">U.S. Edition</a></li>
+                <li><a href="#" class="text-secondary">日本</a></li>
+                <li><a href="#" class="text-secondary">Pakistan</a></li>
+                <li><a href="#" class="text-secondary">Polska</a></li>
+                <li><a href="#" class="text-secondary" style="border-right: none">România</a></li>
+            </ul>
+            <ul class="footer-links">
+                <li><a href="#" class="text-secondary">About Us</a></li>
+                <li><a href="#" class="text-secondary">Corrections</a></li>
+                <li><a href="#" class="text-secondary">Contact Us</a></li>
+                <li><a href="#" class="text-secondary">Editorial Guidelines</a></li>
+                <li><a href="#" class="text-secondary">Advertise</a></li>
+                <li><a href="#" class="text-secondary">Copyright</a></li>
+                <li><a href="#" class="text-secondary">Terms & Conditions</a></li>
+                <li><a href="#" class="text-secondary">Privacy Policy</a></li>
+                <li><a href="#" class="text-secondary">Cookie Policy</a></li>
+                <li><a href="#" class="text-secondary">Terms of Sale</a></li>
+                <li><a href="#" class="text-secondary">Archive</a></li>
+                <li><a href="#" class="text-secondary">Announcements</a></li>
+                <li><a href="#" class="text-secondary" style="border-right: none">Consent preferences</a></li>
+            </ul>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
