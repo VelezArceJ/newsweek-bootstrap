@@ -25,6 +25,16 @@ a:visited {
     font-size: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+    .header-logo {
+        width: 200px;
+        padding-bottom: 1rem;
+    }
+    .header-sub-btn {
+        padding-top: .5rem;
+    }
+}
+
 /* MAIN */
 
 .more-stories img {
